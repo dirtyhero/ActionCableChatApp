@@ -1,10 +1,10 @@
 # README
 
 ## first
-$ docker-compose build
-$ docker-compose run rails ./bin/rake db:create
-$ docker-compose run rails ./bin/rake db:migrate
-$ docker-compose up
+$ docker-compose build  
+$ docker-compose run rails ./bin/rake db:create  
+$ docker-compose run rails ./bin/rake db:migrate  
+$ docker-compose up  
 
 
 ## Let's open 
