@@ -16,3 +16,8 @@ rails console にて下記のコマンドでメッセージ配信
 ```
 ActionCable.server.broadcast 'room_channel',message: 'Hello World!'
 ```
+
+```
+ActionCable.server.broadcast 'room_channel',message: '<div class="message"><div class="container"><img src="/img/bandmember.jpg" alt="Avatar"><p>hello</p><span class="time-right">11:00</span></div></div>'
+```
+
